@@ -14,8 +14,8 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 //main activity class (contains the current date info)
-@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
+
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,8 +41,8 @@ class MainActivity : AppCompatActivity() {
         val monthFormatter = SimpleDateFormat("MMMM", Locale.UK)
 
         //Assigning calendar values to variables
-        dayTxt.text = dayFormatter.format(calendar.get(Calendar.DAY_OF_WEEK))
-        monthTxt.text = monthFormatter.format(calendar.get(Calendar.MONTH))+" "+ calendar.get(Calendar.DATE).toString()
+        dayTxt.text = dayFormatter.format(calendar.time)
+        monthTxt.text = monthFormatter.format(calendar.time)+" "+ calendar.get(Calendar.DATE).toString()
         yearTxt.text = calendar.get(Calendar.YEAR).toString()
         weekNo.text = calendar.get(Calendar.WEEK_OF_YEAR).toString()
 
