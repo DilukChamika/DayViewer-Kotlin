@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Day Viewer</string>
+    <string name="back">Back</string>
+    <string name="calendar">Calendar</string>
+    <string name="saturday">Saturday</string>
+    <string name="day">Day</string>
+    <string name="month_and_date">month and date</string>
+    <string name="year">Year</string>
+    <string name="week_number_of_year">Week Number of Year:  </string>
+    <string name="_12">12</string>
+</resources>
