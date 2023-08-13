@@ -1,6 +1,6 @@
 # DayViewer-Kotlin
 
-This is a simple android application. This shows the current day, month, date, week number of the year and year, at the first screen. At the second screen, it contains a calendar.
+This is a simple android application. This shows the current day, month, date, week number of the year and year, at the first screen. At the second screen, there is a calendar and back button.
 
 <br/>
 Screen 1:
